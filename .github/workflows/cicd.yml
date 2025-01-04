@@ -27,11 +27,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-dev.txt
 
-#      - name: Check black .
-#        run: black --check .
-#
-#      - name: Check isort .
-#        run: isort -c .
+      - name: Check black .
+        run: black --check .
+
+      - name: Check isort .
+        run: isort -c .
 
 #      - name: Test with pytest
 #        run: pytest
